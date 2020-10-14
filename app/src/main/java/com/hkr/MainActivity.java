@@ -11,4 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public static void master(){
+        System.out.println("Method in master");
+    }
 }
