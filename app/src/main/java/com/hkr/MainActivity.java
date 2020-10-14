@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public static void test(){
         System.out.println("Test method");
     }
+
+    public static void master(){
+        System.out.println("Method in master");
+    }
 }
